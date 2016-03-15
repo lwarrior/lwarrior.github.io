@@ -16,12 +16,12 @@ description: > # this means to ignore newlines until "baseurl:"
 #url: "http://172.16.203.181:4000" # the base hostname & protocol for your site
 # Serving
 detach:  false
-port:    4000
-host:    172.16.203.181
+port:    80
+host:    lwarrior.githup.io
 baseurl: "" # does not include hostname
 
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: lwarrior
+github_username:  lwarrior
 
 # Build settings
 markdown: kramdown
