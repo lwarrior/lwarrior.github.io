@@ -1,11 +1,27 @@
-auto: true
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-markdown: rdiscount
-pygments: true
-paginate: 8
-permalink: /:title
+# Site settings
+title: Liu Warrior's Blog
+email: lchangliang@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+# baseurl: "http://172.16.203.181:4000" # the subpath of your site, e.g. /blog
+#url: "http://172.16.203.181:4000" # the base hostname & protocol for your site
+# Serving
+detach:  false
+port:    4000
+host:    172.16.203.181
+baseurl: "" # does not include hostname
 
-title: lwrrior
-url: http://lwrrior.github.io
-feed: /atom.xml
-author_info: <a href="http://lwrrior.github.io/">lwarrior</a>
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
