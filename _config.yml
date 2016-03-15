@@ -17,7 +17,7 @@ description: > # this means to ignore newlines until "baseurl:"
 # Serving
 detach:  false
 port:    80
-host:    lwarrior.githup.io
+host:    lwarrior.github.io
 baseurl: "" # does not include hostname
 
 twitter_username: lwarrior
