@@ -38,8 +38,9 @@ https://rubygems.org/
     gem sources -l
 
 输出如下：
-*** CURRENT SOURCES ***
-https://ruby.taobao.org/
+
+    *** CURRENT SOURCES ***
+    https://ruby.taobao.org/
 
 表明修改成功！
 
