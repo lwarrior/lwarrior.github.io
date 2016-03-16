@@ -7,7 +7,7 @@ categories: jekyll update
 利用jekyll部署自己的blog。以下是一些简单的记录；
 环境CentOS 6.5 x86_64.
 
-###1.安装Ruby
+### 1.安装Ruby ###
 首先下载源代码：
 源地址http://cache.ruby-lang.org/pub/ruby/上有最新的，也可以从国内的网站上下载：
 推荐一下淘宝网的 https://ruby.taobao.org/
@@ -21,7 +21,7 @@ make
 make install
 {% endhighlight %}
 
-###2.修改默认的gem源
+### 2.修改默认的gem源 ###
 
 查看gem源命令：
 gem sources -l
@@ -38,15 +38,18 @@ https://ruby.taobao.org/
 
 表明修改成功！
 
-###3.安装jekyll
+### 3.安装jekyll ###
+
 gem install jekyll
 如没有报错，表明安装成功；
 
-###4.生成一个默认的web站点；
+### 4.生成一个默认的web站点 ###
+
 jekyll new blog
 执行命令后，会在/home/username/目录下生成一个blog目录，这个就是静态网站的目录；
 
-###5.启动web服务：
+### 5.启动web服务 ###
+
 jekyll serve
 输出：
 {% highlight ruby %}
@@ -76,7 +79,10 @@ baseurl: "" # does not include hostname
 {% endhighlight %}
 
 修改完毕后就可以通过网络访问该该静态网站了，http://192.168.1.100:4000
-_config.yml中的更多参数配置可以参考[这里]{https://jekyllrb.com/docs/configuration/}
+
+_config.yml中的更多参数配置可以参考[这里](https://jekyllrb.com/docs/configuration/)
+
+另外GitHup Pages使用的markdown解析器是[kramdown](http://kramdown.gettalong.org/syntax.html)。
 
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
