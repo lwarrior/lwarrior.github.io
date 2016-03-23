@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  “PJSUA Python Modulel"
+title:  PJSUA Python Module
 date:   2016-03-23 23:35:07 +0800
 categories: jekyll update
 ---
